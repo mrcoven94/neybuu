@@ -1,0 +1,49 @@
+
+.logo {
+    height: 100%;
+    width: 100%;
+    margin: 65% 20% 0 10%;
+    
+}
+
+.main-links {
+    float:left;
+    margin-top: 5%;
+    margin-right: 3%;
+    list-style-type: none;
+    color: #2BF75F;
+    font-size: 2em;
+}
+
+.SM {
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.3em;
+    
+    
+}
+
+/* unvisited link */
+a:link {
+    color: #2BF75F;
+}
+
+/* visited link */
+a:visited {
+    color: #2BF75F;
+}
+
+/* mouse over link */
+a:hover {
+    color: #24DC33;
+}
+
+/* selected link */
+a:active {
+    color: #2BF75F;
+}
+
+
+.SM-Height {
+    margin-top: 30%;
+}
