@@ -19,9 +19,16 @@
     text-align: center;
     list-style-type: none;
     font-size: 1.3em;
-    
-    
 }
+
+.SQ {
+    margin-top: 30%; 
+    margin-left: 30%;
+    list-style-type: none;
+
+}
+
+
 
 /* unvisited link */
 a:link {
