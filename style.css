@@ -9,7 +9,7 @@
 .main-links {
     float:left;
     margin-top: 5%;
-    margin-right: 2.5%;
+    margin-right: ;
     list-style-type: none;
     color: #2BF75F;
     font-size: 2em;
@@ -72,7 +72,7 @@ a:active {
 
 
 .SM-Height {
-    margin-top: 40%;
+    margin-top: 25%;
 }
 
 .sign-up {
@@ -84,7 +84,7 @@ a:active {
   display: inline-block;
   vertical-align: middle;
   width: 500px;
-  margin-left: 25%;
+  margin-left: 29%;
   margin-right: auto;
 }
 .thank-you {
