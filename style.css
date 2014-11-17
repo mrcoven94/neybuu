@@ -9,7 +9,7 @@
 .main-links {
     float:left;
     margin-top: 5%;
-    margin-right: ;
+    margin-right: 2.5%;
     list-style-type: none;
     color: #2BF75F;
     font-size: 2em;
@@ -53,7 +53,6 @@ input {
 /* unvisited link */
 a:link {
     color: #2BF75F;
-    text-decoration: none;
 }
 
 /* visited link */
@@ -64,7 +63,6 @@ a:visited {
 /* mouse over link */
 a:hover {
     color: #24DC33;
-    text-decoration: none;
 }
 
 /* selected link */
@@ -74,7 +72,7 @@ a:active {
 
 
 .SM-Height {
-    margin-top: 20%;
+    margin-top: 40%;
 }
 
 .sign-up {
@@ -83,29 +81,13 @@ a:active {
 }
 
 .video {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 400px;
-
-
-}
-
-
-.neybuu  {
-    max-width:auto%;
-    height:auto;
+  display: inline-block;
+  vertical-align: middle;
+  width: 500px;
+  margin-left: 25%;
+  margin-right: auto;
 }
 .thank-you {
     text-align: center;
-    font-size: 1.5em;
-}
-
-.download {
-    margin-top: 0%;
-}
-
-.download-logo {
-    margin-left: auto;
-    margin-right: auto; 
+    font-size: 2em;
 }
