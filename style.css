@@ -81,5 +81,13 @@ a:active {
 }
 
 .video {
-    margin: 15% 15% 2% 28%;
+  display: inline-block;
+  vertical-align: middle;
+  width: 500px;
+  margin-left: 25%;
+  margin-right: auto;
+}
+.thank-you {
+    text-align: center;
+    font-size: 2em;
 }
