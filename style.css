@@ -91,3 +91,11 @@ a:active {
     text-align: center;
     font-size: 2em;
 }
+
+.ps {
+    margin: 24% 0 0 12%;
+}
+
+.about {
+   font-size: 1.5em; 
+}
