@@ -1,39 +1,27 @@
-#top, #bottom, #left, #right {
-	background: #000;
-	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 20px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 20px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
-@media 
-
-/* Fairly small screens including iphones */
-only screen and (max-width: 500px),
-
-/* iPads */
-only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
-
-{
-	#top, #bottom, #left, #right { display: none; }
-}
 
 
 
+
+
+/***************************
+        Index Page
+***************************/
 .logo {
     height: 100%;
     width: 100%;
     margin: 45% 20% 0 12%;
+    position: relative; 
+    z-index:;
     
+}
+
+.neybuu {
+
+}
+
+.mainLinks {
+    color: #2BF75F;
+    font-size: 2em;   
 }
 
 .main-links {
@@ -44,6 +32,19 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
     color: #2BF75F;
     font-size: 2em;
 }
+
+/***************************
+        About Page
+***************************/
+
+.about {
+   font-size: 1.5em; 
+    text-transform: uppercase;
+}
+
+/***************************
+        Links Page
+***************************/
 
 .SM {
     text-align: center;
@@ -62,6 +63,9 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
     color: #2BF75F;
 }
 
+/***************************
+        Contact Page
+***************************/
 input {
     border: 4px solid black; 
     -webkit-box-shadow: 
@@ -79,6 +83,41 @@ input {
 }
 
 
+.sign-up {
+    margin-top: 1%; 
+    margin-left: 19.5%;
+}
+
+.SM-Height {
+    margin-top: 36%;
+}
+
+
+/***************************
+        Video Page
+***************************/
+.video {
+  display: inline-block;
+  vertical-align: middle;
+  width: 500px;
+  margin-left: 29%;
+  margin-right: auto;
+}
+
+.thank-you {
+    text-align: center;
+    font-size: 2em;
+}
+
+.ps {
+    margin: 20% 0 0 12%;
+}
+
+
+
+/***************************
+        General Styles
+***************************/
 
 /* unvisited link */
 a:link {
@@ -101,32 +140,72 @@ a:active {
 }
 
 
-.SM-Height {
-    margin-top: 36%;
-}
 
-.sign-up {
-    margin-top: 1%; 
-    margin-left: 19.5%;
-}
+/*Black Page Border*/
+#top, #bottom, #left, #right {
+	background: #000;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 25px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 25px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
 
-.video {
-  display: inline-block;
-  vertical-align: middle;
-  width: 500px;
-  margin-left: 29%;
-  margin-right: auto;
-}
-.thank-you {
-    text-align: center;
-    font-size: 2em;
-}
+/*Adding vertical offset for logo and pic divs*/
 
-.ps {
-    margin: 20% 0 0 12%;
+/* Vertical Offset Bottom */
+.vert-offset-top-12{
+    margin-top: 26em;
 }
+.vert-offset-top-11{
+    margin-top: 11em;
+}
+.vert-offset-top-10{
+    margin-top: 10em;
+}
+.vert-offset-top-9{
+    margin-top: 9em;
+}
+.vert-offset-top-8{
+    margin-top: 8em;
+}
+.vert-offset-top-7 {
+    margin-top: 7em;
+}
+.vert-offset-top-6{
+    margin-top: 6em;
+}
+.vert-offset-top-5{
+    margin-top: 5em;
+}
+.vert-offset-top-4{
+    margin-top: 4em;
+}
+.vert-offset-top-3{
+    margin-top: 3em;   
+}
+.vert-offset-top-2{
+    margin-top: 2em;
+}
+.vert-offset-top-1{
+    margin-top: 1em;
+}
+.vert-offset-top-0{
+    margin-top: 0em;
 
-.about {
-   font-size: 1.5em; 
-    text-transform: uppercase;
-}
+
+
+
+
+
+
+
