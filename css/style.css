@@ -1826,5 +1826,9 @@ a:active {
  }
  
 .col-md-offset-13 {
-    margin-left: 100%;
+    margin-left: 130%;
+}
+
+.col-md-offset-custom {
+    margin-left: 38.33333333%;
 }
