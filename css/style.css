@@ -281,6 +281,7 @@ a:active {
 and (min-width : 1224px) {
 
    .logoPic { 
+      position: fixed;
       right:10px;
       bottom:0px;
   }
