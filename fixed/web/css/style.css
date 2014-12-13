@@ -1825,3 +1825,6 @@ a:active {
      font-size: 2em;		
  }
  
+.col-md-offset-13 {
+    margin-left: 100%;
+}
