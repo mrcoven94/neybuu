@@ -12,6 +12,9 @@ padding: 3px 0px 23px 0px;
 	margin-top: 1.1em;
 }
 
+.neybuulogo {
+    z-index: 1;   
+}
 
 
 .main-head-section{
@@ -278,7 +281,7 @@ a:active {
 
 
 @media only screen 
-and (min-width : 1224px) {
+and (min-width : 1000px) {
 
    .logoPic { 
       position: fixed;
