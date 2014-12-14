@@ -13,7 +13,7 @@ padding: 3px 0px 23px 0px;
 }
 
 .neybuulogo {
-    z-index: 1;   
+       
 }
 
 
@@ -285,9 +285,8 @@ and (min-width : 1224px) {
 
    .logoPic { 
       position: fixed;
-      right:10px;
+      right:6px;
       bottom:0px;
-       z-index: -1;
   }
 }
 
