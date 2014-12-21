@@ -281,7 +281,7 @@ a:active {
 
 
 @media only screen 
-and (min-width : 1224px) {
+and (min-width : 800px) {
 
    .logoPic { 
       position: fixed;
