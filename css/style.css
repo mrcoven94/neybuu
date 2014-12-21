@@ -212,7 +212,8 @@ padding: 3px 0px 23px 0px;
  }		 
  
 .mainLinks {
-    color: #2BF75F;		
+    color: #2BF75F;	
+    
     
 }
 
@@ -295,4 +296,7 @@ and (min-width : 800px) {
 	a:hover {
 		color: #000;
 	}
+}
+.fix {
+    clear: both; height: 1px;
 }
